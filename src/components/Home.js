@@ -36,7 +36,7 @@ const Home = () => {
                         <div className="column">
                             <div className='ui fluid card'>
                                 <div className='ui image'>
-                                    <img src={book.book_image} alt="" />
+                                    <img src={"/images/books/" + book.name} alt="" />
                                 </div>
                                 <div className='content'>
                                     <div className='meta'>
